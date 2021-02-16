@@ -9,21 +9,25 @@
 /* Begin PBXBuildFile section */
 		70C5AD9125DC34FF00C803AA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70C5AD9025DC34FF00C803AA /* AppDelegate.swift */; };
 		70C5AD9325DC34FF00C803AA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70C5AD9225DC34FF00C803AA /* SceneDelegate.swift */; };
-		70C5AD9525DC34FF00C803AA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70C5AD9425DC34FF00C803AA /* ViewController.swift */; };
 		70C5AD9825DC34FF00C803AA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70C5AD9625DC34FF00C803AA /* Main.storyboard */; };
 		70C5AD9A25DC350200C803AA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 70C5AD9925DC350200C803AA /* Assets.xcassets */; };
 		70C5AD9D25DC350200C803AA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70C5AD9B25DC350200C803AA /* LaunchScreen.storyboard */; };
+		70C5ADA725DC378F00C803AA /* PersonInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70C5ADA625DC378F00C803AA /* PersonInfo.swift */; };
+		70C5ADAA25DC383400C803AA /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70C5ADA925DC383400C803AA /* DataManager.swift */; };
+		70C5ADAF25DC434C00C803AA /* SimpleListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70C5ADAE25DC434C00C803AA /* SimpleListTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		70C5AD8D25DC34FF00C803AA /* Persons List.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Persons List.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		70C5AD9025DC34FF00C803AA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		70C5AD9225DC34FF00C803AA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		70C5AD9425DC34FF00C803AA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		70C5AD9725DC34FF00C803AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		70C5AD9925DC350200C803AA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		70C5AD9C25DC350200C803AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		70C5AD9E25DC350200C803AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		70C5ADA625DC378F00C803AA /* PersonInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonInfo.swift; sourceTree = "<group>"; };
+		70C5ADA925DC383400C803AA /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		70C5ADAE25DC434C00C803AA /* SimpleListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleListTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +62,10 @@
 			children = (
 				70C5AD9025DC34FF00C803AA /* AppDelegate.swift */,
 				70C5AD9225DC34FF00C803AA /* SceneDelegate.swift */,
-				70C5AD9425DC34FF00C803AA /* ViewController.swift */,
 				70C5AD9625DC34FF00C803AA /* Main.storyboard */,
+				70C5ADAE25DC434C00C803AA /* SimpleListTableViewController.swift */,
+				70C5ADA625DC378F00C803AA /* PersonInfo.swift */,
+				70C5ADA925DC383400C803AA /* DataManager.swift */,
 				70C5AD9925DC350200C803AA /* Assets.xcassets */,
 				70C5AD9B25DC350200C803AA /* LaunchScreen.storyboard */,
 				70C5AD9E25DC350200C803AA /* Info.plist */,
@@ -137,8 +143,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				70C5AD9525DC34FF00C803AA /* ViewController.swift in Sources */,
+				70C5ADAA25DC383400C803AA /* DataManager.swift in Sources */,
+				70C5ADAF25DC434C00C803AA /* SimpleListTableViewController.swift in Sources */,
 				70C5AD9125DC34FF00C803AA /* AppDelegate.swift in Sources */,
+				70C5ADA725DC378F00C803AA /* PersonInfo.swift in Sources */,
 				70C5AD9325DC34FF00C803AA /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -296,7 +304,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "MariaMamina.Persons-List";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -315,7 +323,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "MariaMamina.Persons-List";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
