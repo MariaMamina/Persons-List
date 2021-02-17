@@ -9,20 +9,9 @@ import UIKit
 
 class SimpleListTableViewController: UITableViewController {
     
-    let personsList = Person.getPersonList()
-
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        
-    }
-
-    // MARK: - Table view data source
-
-
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         personsList.count
     }
-
 
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "person", for: indexPath)
@@ -35,10 +24,6 @@ class SimpleListTableViewController: UITableViewController {
 
         return cell
     }
-
-
-       // MARK: - Navigation
-
    
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         let detailsVC = segue.destination as! DetailsViewController
@@ -46,6 +31,5 @@ class SimpleListTableViewController: UITableViewController {
         let person = personsList[indexPath.row]
         detailsVC.person = person
     }
-
 
 }

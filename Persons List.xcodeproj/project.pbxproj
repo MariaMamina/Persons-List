@@ -16,6 +16,7 @@
 		70C5ADAA25DC383400C803AA /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70C5ADA925DC383400C803AA /* DataManager.swift */; };
 		70C5ADAF25DC434C00C803AA /* SimpleListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70C5ADAE25DC434C00C803AA /* SimpleListTableViewController.swift */; };
 		70C5ADB225DD157900C803AA /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70C5ADB125DD157900C803AA /* DetailsViewController.swift */; };
+		70C5ADB525DD210500C803AA /* ListWithSectionsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70C5ADB425DD210500C803AA /* ListWithSectionsTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		70C5ADA925DC383400C803AA /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
 		70C5ADAE25DC434C00C803AA /* SimpleListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleListTableViewController.swift; sourceTree = "<group>"; };
 		70C5ADB125DD157900C803AA /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		70C5ADB425DD210500C803AA /* ListWithSectionsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListWithSectionsTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,13 +66,14 @@
 			children = (
 				70C5AD9025DC34FF00C803AA /* AppDelegate.swift */,
 				70C5AD9225DC34FF00C803AA /* SceneDelegate.swift */,
+				70C5AD9B25DC350200C803AA /* LaunchScreen.storyboard */,
 				70C5AD9625DC34FF00C803AA /* Main.storyboard */,
-				70C5ADB125DD157900C803AA /* DetailsViewController.swift */,
 				70C5ADAE25DC434C00C803AA /* SimpleListTableViewController.swift */,
+				70C5ADB125DD157900C803AA /* DetailsViewController.swift */,
+				70C5ADB425DD210500C803AA /* ListWithSectionsTableViewController.swift */,
 				70C5ADA625DC378F00C803AA /* PersonInfo.swift */,
 				70C5ADA925DC383400C803AA /* DataManager.swift */,
 				70C5AD9925DC350200C803AA /* Assets.xcassets */,
-				70C5AD9B25DC350200C803AA /* LaunchScreen.storyboard */,
 				70C5AD9E25DC350200C803AA /* Info.plist */,
 			);
 			path = "Persons List";
@@ -151,6 +154,7 @@
 				70C5AD9125DC34FF00C803AA /* AppDelegate.swift in Sources */,
 				70C5ADA725DC378F00C803AA /* PersonInfo.swift in Sources */,
 				70C5AD9325DC34FF00C803AA /* SceneDelegate.swift in Sources */,
+				70C5ADB525DD210500C803AA /* ListWithSectionsTableViewController.swift in Sources */,
 				70C5ADB225DD157900C803AA /* DetailsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
