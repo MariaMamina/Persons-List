@@ -64,19 +64,67 @@
 		70C5AD8F25DC34FF00C803AA /* Persons List */ = {
 			isa = PBXGroup;
 			children = (
-				70C5AD9025DC34FF00C803AA /* AppDelegate.swift */,
-				70C5AD9225DC34FF00C803AA /* SceneDelegate.swift */,
+				70C5ADC125DD802100C803AA /* SupportingFiles */,
+				70C5ADBB25DD7F5900C803AA /* Storyboards */,
+				70C5ADBC25DD7F8B00C803AA /* ViewControllers */,
+				70C5ADBD25DD7FA700C803AA /* Model */,
+				70C5ADBF25DD7FB800C803AA /* DataManager */,
+				70C5ADC325DD806400C803AA /* Resources */,
+			);
+			path = "Persons List";
+			sourceTree = "<group>";
+		};
+		70C5ADBB25DD7F5900C803AA /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
 				70C5AD9B25DC350200C803AA /* LaunchScreen.storyboard */,
 				70C5AD9625DC34FF00C803AA /* Main.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		70C5ADBC25DD7F8B00C803AA /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
 				70C5ADAE25DC434C00C803AA /* SimpleListTableViewController.swift */,
 				70C5ADB125DD157900C803AA /* DetailsViewController.swift */,
 				70C5ADB425DD210500C803AA /* ListWithSectionsTableViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		70C5ADBD25DD7FA700C803AA /* Model */ = {
+			isa = PBXGroup;
+			children = (
 				70C5ADA625DC378F00C803AA /* PersonInfo.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		70C5ADBF25DD7FB800C803AA /* DataManager */ = {
+			isa = PBXGroup;
+			children = (
 				70C5ADA925DC383400C803AA /* DataManager.swift */,
-				70C5AD9925DC350200C803AA /* Assets.xcassets */,
+			);
+			path = DataManager;
+			sourceTree = "<group>";
+		};
+		70C5ADC125DD802100C803AA /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				70C5AD9025DC34FF00C803AA /* AppDelegate.swift */,
+				70C5AD9225DC34FF00C803AA /* SceneDelegate.swift */,
 				70C5AD9E25DC350200C803AA /* Info.plist */,
 			);
-			path = "Persons List";
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		70C5ADC325DD806400C803AA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				70C5AD9925DC350200C803AA /* Assets.xcassets */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -304,7 +352,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 643WRK3BPZ;
-				INFOPLIST_FILE = "Persons List/Info.plist";
+				INFOPLIST_FILE = "Persons List/SupportingFiles/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -323,7 +371,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 643WRK3BPZ;
-				INFOPLIST_FILE = "Persons List/Info.plist";
+				INFOPLIST_FILE = "Persons List/SupportingFiles/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
