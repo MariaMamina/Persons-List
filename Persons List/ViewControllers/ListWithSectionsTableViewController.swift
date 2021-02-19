@@ -8,6 +8,9 @@
 import UIKit
 
 class ListWithSectionsTableViewController: UITableViewController {
+//    let personsList = Person.getPersonList()
+    
+    var personsList: [Person] = []
     
     // MARK: - Table view data source
 

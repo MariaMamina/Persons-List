@@ -20,34 +20,22 @@ struct Person {
 
 extension Person {
     static func getPersonList() -> [Person] {
-        var nameList = names
-        var surnameList = surnames
-        var phoneNumberList =  phoneNumbers
-        var emailList = emails
-        
         var persons: [Person] = []
-        while !nameList.isEmpty &&
-                !surnameList.isEmpty &&
-                !phoneNumberList.isEmpty &&
-                !emailList.isEmpty {
-            let personName = nameList.remove(
-                at: Int.random(in: 0...nameList.count - 1)
-            )
-            let personPhoneNumber = phoneNumberList.remove(
-                at: Int.random(in: 0...phoneNumberList.count - 1)
-            )
-            let personEmail = emailList.remove(
-                at: Int.random(in: 0...emailList.count - 1)
-            )
-            let personSurname = surnameList.remove(
-                at: Int.random(in: 0...surnameList.count - 1)
-            )
+        let names = DataManager.shared.names.shuffled()
+        let surnames = DataManager.shared.surnames.shuffled()
+        let phoneNumbers = DataManager.shared.phoneNumbers.shuffled()
+        let emails = DataManager.shared.emails.shuffled()
+        
+        for index in 0..<names.count {
+            let person = Person(
+                name: names[index],
+                surname: surnames[index],
+                phoneNumber: phoneNumbers[index],
+                email: emails[index])
             
-            persons.append(Person(name: personName,
-                                  surname: personSurname,
-                                  phoneNumber: personPhoneNumber,
-                                  email: personEmail))
+            persons.append(person)
         }
+        
         return persons
     }
 }

@@ -17,6 +17,7 @@
 		70C5ADAF25DC434C00C803AA /* SimpleListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70C5ADAE25DC434C00C803AA /* SimpleListTableViewController.swift */; };
 		70C5ADB225DD157900C803AA /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70C5ADB125DD157900C803AA /* DetailsViewController.swift */; };
 		70C5ADB525DD210500C803AA /* ListWithSectionsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70C5ADB425DD210500C803AA /* ListWithSectionsTableViewController.swift */; };
+		70C5ADC725DFC1BA00C803AA /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70C5ADC625DFC1BA00C803AA /* TabBarViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		70C5ADAE25DC434C00C803AA /* SimpleListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleListTableViewController.swift; sourceTree = "<group>"; };
 		70C5ADB125DD157900C803AA /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
 		70C5ADB425DD210500C803AA /* ListWithSectionsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListWithSectionsTableViewController.swift; sourceTree = "<group>"; };
+		70C5ADC625DFC1BA00C803AA /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +88,7 @@
 		70C5ADBC25DD7F8B00C803AA /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				70C5ADC625DFC1BA00C803AA /* TabBarViewController.swift */,
 				70C5ADAE25DC434C00C803AA /* SimpleListTableViewController.swift */,
 				70C5ADB125DD157900C803AA /* DetailsViewController.swift */,
 				70C5ADB425DD210500C803AA /* ListWithSectionsTableViewController.swift */,
@@ -197,6 +200,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				70C5ADC725DFC1BA00C803AA /* TabBarViewController.swift in Sources */,
 				70C5ADAA25DC383400C803AA /* DataManager.swift in Sources */,
 				70C5ADAF25DC434C00C803AA /* SimpleListTableViewController.swift in Sources */,
 				70C5AD9125DC34FF00C803AA /* AppDelegate.swift in Sources */,

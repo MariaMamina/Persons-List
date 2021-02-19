@@ -18,6 +18,6 @@ class DetailsViewController: UIViewController {
         super.viewDidLoad()
         phoneLabel.text = "Phone: \(person.phoneNumber)"
         emailLabel.text = "Email: \(person.email)"
-        navigationItem.title = person.fulName
+        title = person.fulName
     }
 }

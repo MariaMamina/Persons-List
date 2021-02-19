@@ -8,6 +8,7 @@
 import UIKit
 
 class SimpleListTableViewController: UITableViewController {
+    var personsList: [Person] = []
     
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         personsList.count
